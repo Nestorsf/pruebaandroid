@@ -20,7 +20,7 @@ public class ExampleInstrumentedTest {
     public void useAppContext() throws Exception {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
-
+        // Agregue un comentario en esta clase
         assertEquals("com.example.nestorso.pruebasandroid", appContext.getPackageName());
     }
 }

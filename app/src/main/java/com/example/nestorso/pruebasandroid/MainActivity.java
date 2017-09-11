@@ -12,6 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e(getClass().getName(), "FS-01");
-        Toast.makeText(this,"Hola Fox!!!!", Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"Hola  Mundo Fox!!!!", Toast.LENGTH_LONG).show();
     }
 }
